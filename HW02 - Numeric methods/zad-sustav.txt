@@ -1,0 +1,18 @@
+# Slijede podatci za sustav linearnih jednadžbi s 10 nepoznanica.
+# Jednadžba je oblika n1x1 + n2x2 + ... + n10x10 = y.
+# Svaki redak je oblika [n1, n2, ..., n10, y]. Kako ima upravo 10 redaka
+# i 10 nepoznanica, imamo sustav koji je moguće riješiti egzaktno.
+# Formulirajte problem rješavanja sustava kao optimizacijski problem
+# minimizacije pogreške i riješite ga iterativnim postupkom gradijentnog
+# spusta. Program na zaslon treba ispisati pronađene [x1, ..., x10] te
+# pogrešku uz koju je prekinuo proces pretraživanja.
+[-1.000, -1.000,  0.000, -3.000,  2.000, -2.000,  2.000,  3.000,  0.000,  2.000,  -38.000]
+[-3.000,  0.000,  3.000,  0.000, -3.000,  2.000,  0.000, -3.000, -1.000, -2.000,  112.000]
+[ 3.000,  2.000,  1.000, -1.000,  3.000,  0.000, -3.000,  1.000, -1.000,  3.000,  -57.000]
+[-3.000,  0.000,  3.000, -3.000,  1.000, -2.000, -1.000,  1.000,  1.000, -3.000,   29.000]
+[-2.000, -1.000, -1.000,  3.000,  1.000,  1.000,  3.000, -2.000,  1.000,  1.000,   35.000]
+[ 2.000,  3.000, -3.000, -2.000,  0.000,  0.000, -3.000, -2.000,  2.000,  1.000, -127.000]
+[-1.000,  3.000, -3.000, -3.000, -1.000,  3.000,  2.000,  1.000, -2.000,  1.000,  -21.000]
+[ 2.000, -3.000,  3.000, -3.000,  2.000,  0.000,  1.000,  3.000,  3.000,  0.000,  -54.000]
+[-3.000,  0.000,  2.000, -1.000,  3.000,  2.000, -1.000,  2.000, -3.000,  0.000,   66.000]
+[-2.000, -3.000,  2.000, -2.000, -2.000,  2.000, -2.000,  3.000,  1.000,  1.000,    6.000]
