@@ -1,0 +1,1 @@
+Algoritam bolje radi kada se drugi roditelj bira nasumičnom selekcijom, te kada je konstanta k kod turnirske selekcije veća.
