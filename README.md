@@ -21,4 +21,8 @@ Minimizing a function using simulated annealing with various solution representa
 * Minimizing a function using an elitist genetic algorithm.
 * Solving the "Box Packing Problem" using a steady-state genetic algorithm.
 
+## Homework 5 - Genetic Algorithms
+* Maximizing a function that has a large contant area using RAPGA (Relevant Alleles Preserving Genetic Algorithm). Tested different parameters and selection methods for the algorithm.
+* Solving the quadratic assignment problem using SASEGASA (Self Adaptive Segregative Genetic Algorithm with Simulated Annealing aspects).
+
 _to be continued..._
