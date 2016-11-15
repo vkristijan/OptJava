@@ -43,6 +43,7 @@ public class Chromosome {
     public void flipBit(int index){
         checkIndex(index);
         bitSet.flip(index);
+        calculatedHash = false;
     }
 
     public boolean getBit(int index){
@@ -53,6 +54,7 @@ public class Chromosome {
     public void setBit(int index, boolean value){
         checkIndex(index);
         bitSet.set(index, value);
+        calculatedHash = false;
     }
 
     public int size(){
