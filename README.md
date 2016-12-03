@@ -25,4 +25,7 @@ Minimizing a function using simulated annealing with various solution representa
 * Maximizing a function that has a large contant area using RAPGA (Relevant Alleles Preserving Genetic Algorithm). Tested different parameters and selection methods for the algorithm.
 * Solving the quadratic assignment problem using SASEGASA (Self Adaptive Segregative Genetic Algorithm with Simulated Annealing aspects).
 
+## Homework 6 - Ant Algorithms
+Solving the travelling salesman problem using Max-Min Ant System Algorithm.
+
 _to be continued..._
