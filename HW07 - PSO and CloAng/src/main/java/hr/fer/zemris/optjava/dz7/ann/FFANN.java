@@ -59,8 +59,8 @@ public class FFANN {
                 double result = 0;
 
                 //for every input to te neuron
-                for (int k = 0; k < lastOutput.length; ++k){
-                    result += lastOutput[k] * weights[weightIndex];
+                for (int k = 0; k < input.length; ++k){
+                    result += input[k] * weights[weightIndex];
                     weightIndex++;
                 }
                 lastOutput[j] = transferFunctions[i - 1].valueAt(result);
