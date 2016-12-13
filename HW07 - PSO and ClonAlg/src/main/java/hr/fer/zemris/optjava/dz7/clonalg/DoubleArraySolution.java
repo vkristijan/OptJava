@@ -17,6 +17,7 @@ public class DoubleArraySolution implements Comparable<DoubleArraySolution> {
     private int size;
     private double fitness;
     private boolean evaluated;
+    private int age;
 
     private DoubleArraySolution(DoubleArraySolution other){
         this.ffann = other.ffann;
@@ -25,6 +26,7 @@ public class DoubleArraySolution implements Comparable<DoubleArraySolution> {
 
         System.arraycopy(other.values, 0, this.values, 0, other.values.length);
         this.evaluated = false;
+        this.age = 0;
     }
 
     public DoubleArraySolution(int n, double min, double max, FFANN ffann){
@@ -37,6 +39,7 @@ public class DoubleArraySolution implements Comparable<DoubleArraySolution> {
             values[i] = value;
         }
         this.evaluated = false;
+        this.age = 0;
     }
 
     public double[] getValues(){
@@ -68,6 +71,14 @@ public class DoubleArraySolution implements Comparable<DoubleArraySolution> {
         evaluated = true;
         fitness = ffann.calcError(values);
         return fitness;
+    }
+
+    public void getOlder(){
+        age++;
+    }
+
+    public int getAge(){
+        return age;
     }
 
     @Override

@@ -28,4 +28,11 @@ Minimizing a function using simulated annealing with various solution representa
 ## Homework 6 - Ant Algorithms
 Solving the travelling salesman problem using Max-Min Ant System Algorithm.
 
+## Homework 7 - PSO and ClonAlg
+Created an Feedforward artificial neural network to classify different species of Iris. The neural network is trained using different approaches:
+
+* Particle Swarm Optimization algorithm using global neigborhood
+* Particle Swarm Optimization algorithm using local neigborhood
+* Clonal Selection Artificial Immune Systems Algorithm
+
 _to be continued..._

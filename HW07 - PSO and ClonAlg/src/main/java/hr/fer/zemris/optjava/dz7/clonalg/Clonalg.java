@@ -19,9 +19,10 @@ public class Clonalg {
 
     private final int newBorn = 10;
     private final double beta = 5;
-    private final double mutationFactor = 0.01;
+    private final double mutationFactor = 0.1;
     private final double xmin = -1;
     private final double xmax = 1;
+    private final int maxAge = 10;
 
     private double bestError;
     private DoubleArraySolution best;
@@ -59,7 +60,6 @@ public class Clonalg {
                 int numberOfClones = (int)(beta * n / (i + 1));
 
                 double mutationRate = 1-Math.exp(-mutationFactor / tmp.getFitness());
-                //System.out.println(mutationRate);
                 for (int j = 0; j < numberOfClones; ++j){
                     clones.add(mutation.mutate(tmp, mutationRate));
                 }
@@ -67,9 +67,12 @@ public class Clonalg {
             population.addAll(clones);
 
             population = population.stream()
+                    .filter(x -> x.getAge() < maxAge)
                     .sorted()
                     .limit(populationSize)
                     .collect(Collectors.toList());
+
+            population.forEach(DoubleArraySolution::getOlder);
 
             for (int i = 0; i < newBorn; ++i){
                 population.add(new DoubleArraySolution(ffann.getWeightsCount(), xmin, xmax, ffann));
