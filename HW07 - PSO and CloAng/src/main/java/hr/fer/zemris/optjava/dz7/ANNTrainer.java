@@ -3,6 +3,7 @@ package hr.fer.zemris.optjava.dz7;
 import hr.fer.zemris.optjava.dz7.ann.Dataset;
 import hr.fer.zemris.optjava.dz7.ann.FFANN;
 import hr.fer.zemris.optjava.dz7.ann.TransferFunction;
+import hr.fer.zemris.optjava.dz7.clonalg.Clonalg;
 import hr.fer.zemris.optjava.dz7.pso.AbstractPSO;
 import hr.fer.zemris.optjava.dz7.pso.GlobalPSO;
 import hr.fer.zemris.optjava.dz7.pso.LocalPSO;
@@ -63,7 +64,8 @@ public class ANNTrainer {
             AbstractPSO pso = new LocalPSO(ffann, maxIter, populationSize, maxError, neighbour);
             pso.run();
         } else if (alg.startsWith("clonalg")){
-            //TODO
+            Clonalg clonalg = new Clonalg(ffann, populationSize, maxIter, maxError);
+            clonalg.run();
         } else {
             System.err.println("Unsupported algorithm!");
             System.exit(1);

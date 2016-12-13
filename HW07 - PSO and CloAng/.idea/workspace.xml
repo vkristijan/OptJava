@@ -39,6 +39,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ANNTrainer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/ANNTrainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GlobalPSO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/pso/GlobalPSO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,14 +61,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocalPSO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LocalPSO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/pso/LocalPSO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            <state relative-caret-position="229">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoubleArraySolution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/clonalg/DoubleArraySolution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1387#1388#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
+                <element signature="e#1493#1494#0" expanded="true" />
+                <element signature="e#1761#1762#0" expanded="true" />
+                <element signature="e#1833#1834#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Clonalg.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/clonalg/Clonalg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mutation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/clonalg/Mutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,9 +136,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/hr/fer/zemris/optjava/dz7/NeuralTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/pso/AbstractPSO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/ANNTrainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/pso/GlobalPSO.java" />
         <option value="$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/pso/LocalPSO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/clonalg/Mutate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/ANNTrainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/clonalg/DoubleArraySolution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/clonalg/Mutation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/clonalg/Clonalg.java" />
       </list>
     </option>
   </component>
@@ -286,6 +342,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="clonalg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW07 - PSO and CloAng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW07 - PSO and CloAng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ann" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -348,7 +434,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="hr.fer.zemris.optjava.dz7.ANNTrainer" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Users\krist\OneDrive\FER\OptJava\HW07 - PSO and CloAng\data\07-iris-formatirano.data&quot; pso-b-8 100 0.02 10000" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Users\krist\OneDrive\FER\OptJava\HW07 - PSO and CloAng\data\07-iris-formatirano.data&quot; clonalg 50 0.02 10000" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -555,7 +641,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -568,7 +654,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -619,7 +705,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="33" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -645,19 +731,19 @@
         <state relative-caret-position="323">
           <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#408#409#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#526#527#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#612#613#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#692#693#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#882#883#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -688,7 +774,7 @@
         <state relative-caret-position="102">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -714,19 +800,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#408#409#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#526#527#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#612#613#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#692#693#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#882#883#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -778,19 +864,19 @@
         <state relative-caret-position="323">
           <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#408#409#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#526#527#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#612#613#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#692#693#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#882#883#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -835,16 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/ANNTrainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/pso/GlobalPSO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -867,11 +943,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/pso/LocalPSO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        <state relative-caret-position="229">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/ANNTrainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/clonalg/DoubleArraySolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/clonalg/Mutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hr/fer/zemris/optjava/dz7/clonalg/Clonalg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
