@@ -35,4 +35,7 @@ Created an Feedforward artificial neural network to classify different species o
 * Particle Swarm Optimization algorithm using local neigborhood
 * Clonal Selection Artificial Immune Systems Algorithm
 
+## Homework 8 - Differential Evolution
+Created two artificial neural networks: a Time Delay Neural Network and an Elman Neural Network, in order to predict the next value from the given series of data. Both neural networks are trained using a Differential Evolution algorithm.
+
 _to be continued..._
