@@ -38,4 +38,6 @@ Created an Feedforward artificial neural network to classify different species o
 ## Homework 8 - Differential Evolution
 Created two artificial neural networks: a Time Delay Neural Network and an Elman Neural Network, in order to predict the next value from the given series of data. Both neural networks are trained using a Differential Evolution algorithm.
 
+## Homework 9 - NSGA
+
 _to be continued..._
