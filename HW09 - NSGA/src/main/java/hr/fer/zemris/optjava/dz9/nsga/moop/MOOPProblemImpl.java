@@ -12,10 +12,12 @@ import java.util.List;
 public class MOOPProblemImpl implements MOOPProblem {
     private List<IFunction> objectiveFunctions;
     private List<IConstraint> constraints;
+    private int solutionSize;
 
-    public MOOPProblemImpl(List<IFunction> objectiveFunctions, List<IConstraint> constraints) {
+    public MOOPProblemImpl(List<IFunction> objectiveFunctions, List<IConstraint> constraints, int solutionSize) {
         this.objectiveFunctions = objectiveFunctions;
         this.constraints = constraints;
+        this.solutionSize = solutionSize;
     }
 
     @Override
@@ -40,6 +42,11 @@ public class MOOPProblemImpl implements MOOPProblem {
         double[] objectives = new double[getNumberOfObjectives()];
         evaluateSolution(solution, objectives);
         return objectives;
+    }
+
+    @Override
+    public int solutionSize() {
+        return solutionSize;
     }
 
 

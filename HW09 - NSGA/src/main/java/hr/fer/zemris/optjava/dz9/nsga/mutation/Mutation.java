@@ -20,7 +20,7 @@ public class Mutation implements IMutation {
     public void mutate(Chromosome chromosome) {
         for (int i = 0; i < chromosome.getSolutionSize(); ++i){
             double solution = chromosome.getSolution(i);
-            solution += rnd.nextGaussian() * sigma;
+            solution += rnd.nextDouble() * sigma - sigma / 2;
 
             chromosome.setSolution(i, solution);
         }

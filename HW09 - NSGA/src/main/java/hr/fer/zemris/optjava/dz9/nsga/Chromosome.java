@@ -53,6 +53,42 @@ public class Chromosome implements Comparable<Chromosome>{
         this.objective = objective;
     }
 
+    public void incrementDominatedBy(){
+        dominatedBy++;
+    }
+
+    public void decrementDominatedBy(){
+        dominatedBy--;
+    }
+
+    public Set<Chromosome> getDominating() {
+        return dominating;
+    }
+
+    public void setDominating(Set<Chromosome> dominating) {
+        this.dominating = dominating;
+    }
+
+    public int getDominatedBy() {
+        return dominatedBy;
+    }
+
+    public void setDominatedBy(int dominatedBy) {
+        this.dominatedBy = dominatedBy;
+    }
+
+    public void addDominating(Chromosome other){
+        dominating.add(other);
+    }
+
+    public double getFitness() {
+        return fitness;
+    }
+
+    public void setFitness(double fitness) {
+        this.fitness = fitness;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

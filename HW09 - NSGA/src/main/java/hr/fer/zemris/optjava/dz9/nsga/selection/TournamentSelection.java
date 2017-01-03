@@ -28,7 +28,7 @@ public class TournamentSelection implements ISelection {
             selected.add(population.get(rnd.nextInt(n)));
         }
 
-        selected.sort(Comparator.naturalOrder());
+        selected.sort(Comparator.reverseOrder());
         return selected.get(0);
     }
 }
