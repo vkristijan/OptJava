@@ -1,4 +1,4 @@
-package hr.fer.zemris.optjava.dz9.nsga;
+package hr.fer.zemris.optjava.dz9.nsga.moop;
 
 /**
  * @author Kristijan Vulinovic

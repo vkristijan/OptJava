@@ -36,6 +36,10 @@ public class Chromosome implements Comparable<Chromosome>{
         return solution[index];
     }
 
+    public double[] getSolution() {
+        return solution;
+    }
+
     public void setSolution(int index, double value){
         solution[index] = value;
         hasHash = false;
