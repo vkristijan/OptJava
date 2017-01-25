@@ -42,6 +42,7 @@ public class RNGRandomImpl implements IRNG {
 
     @Override
     public int nextInt(int min, int max) {
+        if (min == max) return min;
         return rnd.nextInt(max - min) + min;
     }
 

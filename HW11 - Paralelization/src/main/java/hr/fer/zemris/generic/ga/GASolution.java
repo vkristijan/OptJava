@@ -15,6 +15,10 @@ public abstract class GASolution<T> implements Comparable<GASolution<T>> {
         return data;
     }
 
+    public void setData(T data){
+        this.data = data;
+    }
+
     public abstract GASolution<T> duplicate();
 
     @Override

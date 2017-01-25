@@ -11,6 +11,8 @@ import java.io.IOException;
  * @version 1.0.0
  */
 public class GrayScaleImage {
+    public static int SHADES_OF_GREY = 256;
+
     private int width;
     private int height;
     private byte[] data;
