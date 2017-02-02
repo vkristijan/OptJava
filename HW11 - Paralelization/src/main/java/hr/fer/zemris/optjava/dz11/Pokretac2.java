@@ -3,10 +3,7 @@ package hr.fer.zemris.optjava.dz11;
 import hr.fer.zemris.art.GrayScaleImage;
 import hr.fer.zemris.art.IImgProvider;
 import hr.fer.zemris.art.ThreadLocalImageProvider;
-import hr.fer.zemris.generic.ga.Evaluator;
-import hr.fer.zemris.generic.ga.GASolution;
-import hr.fer.zemris.generic.ga.Ga;
-import hr.fer.zemris.generic.ga.IGAEvaluator;
+import hr.fer.zemris.generic.ga.*;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -18,7 +15,7 @@ import java.nio.file.Paths;
  * @author Kristijan Vulinovic
  * @version 1.0.0
  */
-public class Pokretac1 {
+public class Pokretac2 {
     private static Path originalFile;
     private static int numberOfRectangles;
     private static int populationSize;
@@ -35,8 +32,8 @@ public class Pokretac1 {
 
         originalFile = Paths.get(args[0]);
         numberOfRectangles = Integer.parseInt(args[1]);
-        populationSize = Integer.parseInt(args[2]);
         maxGenerations = Integer.parseInt(args[3]);
+        populationSize = Integer.parseInt(args[2]);
         minFitness = Double.parseDouble(args[4]);
         parametersFile = Paths.get(args[5]);
         resultFile = Paths.get(args[6]);
@@ -48,7 +45,7 @@ public class Pokretac1 {
 
         Evaluator evaluator = new Evaluator(template, provider);
 
-        Ga ga = new Ga(maxGenerations, minFitness, populationSize, numberOfRectangles, width, height, evaluator);
+        Ga2 ga = new Ga2(maxGenerations, minFitness, populationSize, numberOfRectangles, width, height, evaluator);
         GASolution<int[]> solution = ga.run();
 
         if (!Files.exists(resultFile)){
