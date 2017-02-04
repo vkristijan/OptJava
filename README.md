@@ -39,5 +39,12 @@ Created an Feedforward artificial neural network to classify different species o
 Created two artificial neural networks: a Time Delay Neural Network and an Elman Neural Network, in order to predict the next value from the given series of data. Both neural networks are trained using a Differential Evolution algorithm.
 
 ## Homework 9 - NSGA
+Solved two multiple objective optimization problems using the NSGA algorithm (Non-dominated Sorting Genetic Algorithm).
+
+## Homework 10 - NSGA II
+Solved two multiple objective optimization problems using the NSGA II algorithm (Non-dominated Sorting Genetic Algorithm II).
+
+## Homework 11 - Parallelization
+Created a thread safe random number generator that uses the default Java Random class from java.util. Created two versions of a genetic algorithm that takes a grayscale image and tries to create it using only a given number of rectangles. In the first version, only the evaluation is done multithreaded. In the second solution the job of creating a new child is done multithreaded (parent selection, crossover, mutation and evaluation), while the main thread is used just to create the tasks and new population.
 
 _to be continued..._
