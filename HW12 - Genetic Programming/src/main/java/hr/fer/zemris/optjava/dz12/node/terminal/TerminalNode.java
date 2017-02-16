@@ -1,5 +1,6 @@
 package hr.fer.zemris.optjava.dz12.node.terminal;
 
+import hr.fer.zemris.optjava.dz12.Map;
 import hr.fer.zemris.optjava.dz12.node.Node;
 
 import java.util.ArrayList;

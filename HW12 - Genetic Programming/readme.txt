@@ -1,0 +1,1 @@
+java -cp target/classes hr.fer.zemris.optjava.dz12.AntTrailGA "13-SantaFeAntTrail.txt" 120 500 85 "izlaz.txt"

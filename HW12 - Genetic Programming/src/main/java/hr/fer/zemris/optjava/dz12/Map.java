@@ -17,12 +17,15 @@ public class Map {
     private int antColumn;
     private Orientation orientation;
 
+    private int foodEaten;
+
     private Field[][] map;
 
     public Map() {
         antColumn = 0;
         antRow = 0;
         orientation = Orientation.RIGHT;
+        foodEaten = 0;
     }
 
     public static Map readFromFile(Path filePath){
@@ -30,7 +33,7 @@ public class Map {
         Map map = new Map();
 
         try {
-            Files.readAllLines(filePath);
+            lines = Files.readAllLines(filePath);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -52,6 +55,12 @@ public class Map {
                     map.map[row][column] = Field.EMPTY;
                 }
             }
+            row++;
+        }
+
+        if (map.getCurrentField() == Field.FOOD){
+            map.foodEaten++;
+            map.setCurrentField(Field.EMPTY);
         }
 
         return map;
@@ -64,21 +73,30 @@ public class Map {
                 if (antRow >= height){
                     antRow = 0;
                 }
+                break;
             case UP:
                 antRow--;
                 if (antRow < 0){
                     antRow = height - 1;
                 }
+                break;
             case LEFT:
                 antColumn--;
                 if (antColumn < 0){
                     antColumn = width - 1;
                 }
+                break;
             case RIGHT:
                 antColumn++;
                 if (antColumn >= width){
                     antColumn = 0;
                 }
+                break;
+        }
+
+        if (getCurrentField() == Field.FOOD){
+            foodEaten++;
+            setCurrentField(Field.EMPTY);
         }
     }
 
@@ -114,11 +132,37 @@ public class Map {
         return map[antRow][antColumn];
     }
 
+    public void setCurrentField(Field field){
+        map[antRow][antColumn] = field;
+    }
+
     public int getAntRow() {
         return antRow;
     }
 
     public int getAntColumn() {
         return antColumn;
+    }
+
+    public int getFoodEaten() {
+        return foodEaten;
+    }
+
+    public Map copy(){
+        Map newMap = new Map();
+        newMap.foodEaten = this.foodEaten;
+        newMap.antColumn = this.antColumn;
+        newMap.antRow = this.antRow;
+
+        newMap.width = this.width;
+        newMap.height = this.height;
+        newMap.orientation = this.orientation;
+
+        newMap.map = new Field[height][width];
+        for (int i = 0; i < height; ++i){
+            System.arraycopy(this.map[i], 0, newMap.map[i], 0, width);
+        }
+
+        return newMap;
     }
 }
