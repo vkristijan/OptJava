@@ -47,4 +47,5 @@ Solved two multiple objective optimization problems using the NSGA II algorithm 
 ## Homework 11 - Parallelization
 Created a thread safe random number generator that uses the default Java Random class from java.util. Created two versions of a genetic algorithm that takes a grayscale image and tries to create it using only a given number of rectangles. In the first version, only the evaluation is done multithreaded. In the second solution the job of creating a new child is done multithreaded (parent selection, crossover, mutation and evaluation), while the main thread is used just to create the tasks and new population.
 
-_to be continued..._
+## Homework 12 - Genetic Programming
+Solved a problem of finding the best path for an ant to get the maximum food on a given map using genetic programming. Created GUI using Swing to simulate the movements.
